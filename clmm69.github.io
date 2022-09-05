@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @phuduc2809
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+RewriteEngine On
 
-<!---
-phuduc2809/phuduc2809 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+RewriteRule ^home/$ public/page/index.php [L]
+RewriteRule ^home$ public/page/index.php [L]
+RewriteRule ^admin/$ public/admin/Home.php [L]
+RewriteRule ^admin$ public/admin/Home.php [L]
+RewriteRule ^login$ public/page/login.php [L]
+RewriteRule ^top$ public/page/bang-xep-hang.php [L]
